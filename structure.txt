@@ -1,0 +1,11 @@
+.
+├── .github/
+│   └── workflows/
+│       └── test.yml          # CI-конфигурация GitHub Actions
+├── src/
+│   └── stringUtils.js        # Исходный код (модуль)
+├── tests/
+│   └── stringUtils.test.js   # Тесты
+├── .gitignore
+├── package.json
+└── README.md
