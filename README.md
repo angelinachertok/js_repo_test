@@ -6,3 +6,10 @@
 
 ```bash
 npm install
+
+npm test
+
+const { capitalize, reverse } = require('./src/stringUtils');
+
+console.log(capitalize('hello')); // Hello
+console.log(reverse('world'));    // dlrow
